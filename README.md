@@ -3,4 +3,4 @@
 ## Instructions
 ###### Copy and paste this html into where you embed on google sites
 ###### Go to line 6 and enter the text that you want to show on the button where it says "ENTER TEXT HERE"
-###### Go to line __ and enter the URL that the button will bring you to where it says "ENTER URL HERE"
+###### Go to line 12 and enter the URL that the button will bring you to where it says "ENTER URL HERE"

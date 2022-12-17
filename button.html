@@ -1,0 +1,82 @@
+<html>
+<head>
+</head>
+<body>
+
+<button class="button-64" onclick="myFunction()"><span class="text">ENTER TEXT HERE!!!!</span></button>
+
+<script>
+function myFunction() {
+var win = window.open()
+//YOU CAN REPLACE THE LINK BELOW WITH ANYTHING YOU WANT! 
+var url = "ENTER URL HERE IN QUOTATIONS"
+if (url) {
+var iframe = document.createElement("iframe")
+iframe.style.border = "none";
+iframe.style.width = "100%";
+iframe.style.height = "100%"
+iframe.style.margin = "0";
+iframe.src = url;
+win.document.body.appendChild(iframe);
+}
+}
+</script>
+
+<style>
+/*This is the CSS for the button. Feel free to change this if you know CSS, or you can copy other CSS into the space below*/
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 40px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  max-height: 100%;
+  min-height: 50px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.body{
+  background-color: black;
+}
+</style>
+</body>
+</html>
